@@ -1,0 +1,714 @@
+
+*{
+    font-family: 'Changa', sans-serif;
+}
+/* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Start Upper Part----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    .upper-part
+    {
+        background-color: #08526d;
+        color: #eee;
+    }
+    .upper-part .container .row div:first-of-type
+    {
+        text-align: left;
+        padding-top: 16px;
+        padding-bottom: 10px;
+    }
+    .upper-part .container .row div:nth-of-type(2)
+    {
+        text-align: right;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .upper-part .container .row div .btn
+    {
+        border: 1px solid #ec1c23;
+        color: #eee;
+        margin-left: 10px;
+    }
+    .upper-part p 
+    {
+        display: inline;
+    }
+    @media (min-width: 320px) {
+        .upper-part .container .row div
+        {
+            text-align: center !important;
+        }
+     }
+    /* // Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+        .upper-part .container .row div:first-of-type
+        {
+            text-align: left !important;
+        }
+        .upper-part .container .row div:nth-of-type(2)
+        {
+            text-align: right !important;
+        }
+     }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {  }
+
+    /* // Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {  }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {  }
+    /* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------End Upper Part----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    /*   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Stat Navbar----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    .navbar-light .navbar-brand span
+    {
+        color: #08526d;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .navbar-light .navbar-brand span:last-of-type
+    {
+        color: #ec1c23;
+        font-weight: normal;
+    }
+    .navbar-light .navbar-nav .nav-link
+    {
+        font-size: 16.5px;
+        font-weight: 500;
+    }
+    .navbar-light .navbar-nav .active
+    {
+        color: #ec1c23 !important;
+    }
+      /*   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------End Navbar----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+     /*   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Start Slider----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    .slider
+    {
+        position: relative;
+        color: white;
+    }
+    .slider .overlay
+    {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #00000080;
+        display: flex;
+    }
+    .slider .overlay
+    {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .slider .overlay h1
+    {
+        font-size: 60px;
+        line-height: 60px;
+        margin-top: -60px;
+    }
+    .slider .carousel-indicators li
+    {
+        height: 7px;
+        cursor: pointer;
+    }
+    @media (min-width: 320px) {
+        .slider .overlay h1{
+            font-size: 30px;
+        }
+       
+     }
+    /* // Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+        .slider .overlay h1{
+            font-size: 40px;
+        }
+     }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) { 
+        .slider .overlay h1{
+            font-size: 50px;
+        }
+     }
+
+    /* // Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {  }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {  }
+     /*   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------End Slider----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    /* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Start features ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    .features
+    {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .features i
+    {
+        width: 60px;
+        height: 60px;
+        background: #ec1c23;
+        color: #fff;
+        line-height: 60px;
+        margin-bottom: 6px;
+    }
+    .features p
+    {
+        color: rgb(125,125,125);
+        margin-bottom: 25px;
+    }
+    
+     /* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------End features ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+       /* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Start Overview ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    .overview
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #f0f5f7;
+    }
+    .overview .h1
+    {
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+    .overview p
+    {
+        width: 66%;
+        margin: 0 auto 25px;
+        color: #878787;
+    }
+    .overview span
+    {
+        display: block;
+        letter-spacing: 3px;
+        font-size: 20px;
+        color: #686868;
+        margin-bottom: 25px;
+        font-weight: bold;
+    }
+       /* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------End Overview ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    /* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Start featured work ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    .featured-work
+    {
+        padding-top: 50PX;
+        padding-bottom: 25PX;
+    }
+    .featured-work .h1
+    {
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+    .featured-work p
+    {
+        width: 70%;
+        margin: 0 auto 25px;
+        color: #878787;
+    }
+    .featured-work .list-unstyled
+    {
+        margin-right: 0;
+        margin-left: -6px;
+    }
+    .featured-work ul li 
+    {
+        border: 2px solid #ec1c23;
+        margin: 10px 0 0 1%;
+        color: black;
+        transition: all 0.5s ease-in-out;
+    }
+    .featured-work ul li.active,    .featured-work ul li:hover
+    {
+        background-color: #ec1c23;
+        color: white;
+    }
+    .featured-work img
+    {
+        margin-bottom: 30px;
+    }
+    @media (min-width: 320px) {
+        .featured-work img
+        {
+            width: 50%;
+        }
+     }
+    /* // Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+        
+     }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) { 
+        .featured-work img
+        {
+            width: 100% !important;
+        }
+     }
+
+    /* // Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {  }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {  }
+    /* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------End featured work ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    /*  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Start latest-posts ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+     .latest-posts
+     {
+         background-color: #Eee;
+         padding-top: 50px;
+         padding-bottom: 50px;
+     }
+     .latest-posts .h1
+    {
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+    .latest-posts p
+    {
+        width: 70%;
+        margin: 0 auto 25px;
+        color: #878787;
+    }
+    .latest-posts .card
+    {
+        margin-bottom: 15px;
+    }
+    .latest-posts .card p
+    {
+        width: 100%;
+    }
+    /*  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------End latest-posts ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    /*  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Start price ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+     .price
+     {
+         padding-top: 50px;
+         padding-bottom: 40px;
+     }
+     .price .h1
+    {
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+    .price p
+    {
+        width:69%;
+        margin: 0 auto 25px;
+        color: #878787;
+        padding-bottom: 20px;
+        
+    } 
+    .price .option
+    {
+        border: 1px solid #08526d;
+        border-radius: 3px;
+        background-color: #fff;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    .price .option1
+    {
+        margin-top: 25px;
+    }
+    .price .option h3
+    {
+        font-size: 28px;
+        padding-top: 40px;
+        color: #08526d;
+    }
+    .price .option span
+    {
+        color: #333;
+    }
+    .price .option p
+    {
+        color: #08526d;
+        width: 100%;
+        background-color: #eee;
+        font-size: 30px;
+        margin: 25px auto;
+        padding: 10px 0;
+    }
+    .price .option span
+    {
+        font-size: 15px;
+    }
+    .price .option ul li 
+    {
+       
+    padding: 10px 0 5px 0;
+    font-size: 18px;
+
+    }
+    .price .option .btn
+    {
+        margin-bottom: 15px;
+    }
+    .price .option1 p,.price .option1 p span
+    {
+        color: white;
+        background-color: #ec1c23;
+    }
+    .price .option1 .btn
+    {
+        background-color: #08526d;
+    }
+    @media (min-width: 320px) {
+        .price .option:first-of-type
+        {
+            
+            margin-top: 0px ;
+        }
+     }
+    /* // Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+        
+     }
+
+    /* // Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) { 
+        .price .option
+    {
+        
+        margin-top: 50px !important;
+    }
+    .price .option1
+    {
+        margin-top: 25px !important;
+    }
+     }
+
+    /* // Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {  }
+
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {  }
+    /*  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------End price ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    /* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Start why us ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    .why-us .back
+    {
+        background-image: url('../imgs/choose.png');
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+    .why-us img
+    {
+        width: 100%;
+    }
+    .why-us  .row
+    {
+        margin: 0;
+    }
+    .why-us .col-md-6
+    {
+        padding: 0;
+    }
+    .why-us .col-md-6:last-of-type
+    {
+        background-color: #08526d;
+        color: white;
+    }
+    .why-us .col-md-6 .content
+    {
+        padding: 60px 0 0 58px  ;
+    }
+    .why-us .col-md-6 .content h2
+    {
+        margin-bottom: 60px;
+    }
+    .why-us .col-md-6 .content p
+    {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .why-us .col-md-6 .content .btn
+    {
+        margin-bottom: 50px;
+    }
+    /* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------end why us ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    /* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Stat why us ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    .stat
+    {
+        margin-top: 75px;
+        margin-bottom: 45px;
+        color: #08526d;
+    }
+    .stat .content
+    {
+        margin-bottom: 30px;
+    }
+    .stat p:first-of-type{
+        padding-top: 8px;
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+    .stat p:last-of-type
+    {
+        font-size: 25px;
+        font-weight: 500;
+        color: #ec1c23;
+        margin-top: -10px;
+    }
+    /* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Stat why us ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    /*  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Stat contact  ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+ .contact
+ {
+     background-color: #ec1c23;
+     color: white;
+ }
+ .contact .row div
+ {
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+ .contact p
+ {
+     font-size: 25px;
+     padding: 8px 0 0 0 ;
+     font-weight: bold;
+ }
+ .contact .btn
+ {
+    background-color: #00000000;
+    color: white;
+    font-size: 19px;
+    margin-top: 6px;
+ }
+ @media (min-width: 320px) {
+    .contact .row div:first-of-type{
+        text-align: center !important;
+        padding-bottom: 0;
+    }
+    .contact .row div:last-of-type
+    {
+        text-align: center !important;
+        padding-top: 0px;
+    }
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .contact p{
+        font-size: 19px;
+    }
+    .contact .btn
+    {
+        margin-top: 0px;
+    }
+    .contact .row div:first-of-type{
+        text-align: left !important;
+        padding-bottom: 50px !important;
+    }
+    .contact .row div:last-of-type
+    {
+        text-align: right !important;
+        padding-top: 50px !important;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .contact p{
+        font-size: 25px;
+    }
+    .contact .btn
+    {
+        margin-top: 6px;
+    }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+    /*  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------End contact  ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    /*  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Start About  ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    .about
+    {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .about .content span
+    {
+        color: #08526d;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .about .content span:last-of-type
+    {
+        color: #ec1c23;
+        font-weight: normal;
+    }
+    .about .content p
+    {
+        margin-top: 25px;
+    }
+    .about .content a
+    {
+        color: #686868;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .about .links span
+    {
+        color: #08526d;
+        font-size: 30px;
+    }
+    .about .links i
+    {
+        font-size: 10px;
+        color: #08526d;
+        font-weight: bold;
+    }
+    .about .links ul
+    {
+        margin-top: 25px;
+    }
+    .about .info span
+    {
+        color: #08526d;
+        font-size: 30px;
+    }
+    .about .info li
+    {
+       margin-bottom: 25px;
+    }
+    .about .info ul
+    {
+        margin-top: 25px;
+    }
+    .about .content
+    {
+        margin-bottom: 20px;
+    }
+    @media (min-width: 320px) {
+        .about
+        {
+            padding-top: 30px;
+        }
+        .about .info ul
+        {
+            margin-top: 10px;
+        }
+        .about .info li
+        {
+            margin-bottom: 10px;
+        }
+     }
+    /* // Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+       
+     }
+    
+    /* // Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) { 
+        .about
+        {
+            padding-top: 50px;
+        }
+        .about .info ul
+        {
+            margin-top: 25px;
+        }
+        .about .info li
+        {
+            margin-bottom: 25px;
+        }
+     }
+    
+    /* // Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) { 
+        
+     }
+    
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {  }
+    /*  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------End About  ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    /* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Start Footer  ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
+    .copyright
+    {
+        border-top: 2px solid #08526d;
+        padding: 10px;
+    }
+    .copyright p
+    {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .copyright ul
+    {
+        margin-bottom: 0;
+    }
+    .copyright ul li
+    {
+        padding-bottom: 0;
+    }
+    .copyright ul li
+    {
+        display: inline-block;
+        color: #686868;
+        margin:  0 10px 0 0
+    }
+    /* <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////
+    -----------------------------------------Start Footer  ----------------------------------------------
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////// --> */
